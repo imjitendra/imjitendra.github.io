@@ -2,15 +2,23 @@
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/"><img src="https://img.icons8.com/flat_round/64/000000/home--v1.png">
+                <a class="link" href="{{ site.url }}/"><img src="https://img.icons8.com/material-two-tone/24/000000/home--v2.png">
 </a>
             </li>
+        {% endif %}
+
+        {% if site.about == true %}
+            {% if page.title != "About" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/about">About</a>
+                </li>
+            {% endif %}
         {% endif %}
 
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="https://quickhax.com/">Blog</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -21,14 +29,7 @@
                     <a class="link" href="{{ site.url }}/projects">Projects</a>
                 </li>
             {% endif %}
-        {% endif %}
-
-        {% if site.about == true %}
-            {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
-                </li>
-            {% endif %}
+        
         {% endif %}
 
         {% if site.resume == true %}
