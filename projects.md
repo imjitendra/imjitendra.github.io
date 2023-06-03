@@ -5,5 +5,5 @@ layout: page
 
 <h1>This is my Projects</h1>
 
-<a href="https://quickhax.com/" align="center">Quickhax</a>
+<a href="https://quickhax.com/">Quickhax</a>
 
