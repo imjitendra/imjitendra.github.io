@@ -1,6 +1,6 @@
 # main text of home
 name: Hi, I'm Jitendra
-bio: Young Entrepreneur & Digital Marketer
+bio: Blogger & Digital Marketer
 
 # twitter summary info
 description: Personal Portfolio
@@ -56,7 +56,7 @@ quora: Jitendra-Mandal-4
 authors:
     Jitendra:
         name: Jitendra
-        bio: Young Entrepreneur & Digital Marketer
+        bio: Blogger & Digital Marketer
         external-image: false
         picture: assets/images/profile.jpg
         twitter: ijitendramandal
